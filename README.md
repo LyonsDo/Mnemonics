@@ -1,8 +1,28 @@
 # Mnemonics
 
-https://lyonsdo.github.io/Mnemonics/
 
-<iframe max-width: 100%;
-    max-height: 100%;
-    height: inherit 
-    src="//jsfiddle.net/DLyons/0wcxnb5e/embedded/" allowfullscreen="allowfullscreen" frameborder="0"> filler </iframe>
+<h3>My Google Maps Demo</h3>
+<div id="map"></div>
+
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #map {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+  </body>
+</html>
